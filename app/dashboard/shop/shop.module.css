@@ -1,0 +1,36 @@
+
+.container {
+    padding: 2rem;
+  }
+  
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .filter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .filter label {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .filter select,
+  .filter input {
+    padding: 0.4rem 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1.5rem;
+  }
+  

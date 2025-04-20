@@ -1,0 +1,70 @@
+
+.container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(135deg, #eef2ff, #c3dafe);
+    border-radius: 12px;
+    margin-bottom: 3rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #1e3a8a;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    color: #4c51bf;
+  }
+  
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  .cardIcon {
+    font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .cardTitle {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #2d3748;
+  }
+  
+  .cardText {
+    margin-top: 0.5rem;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+  
